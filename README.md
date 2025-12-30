@@ -28,7 +28,6 @@ React 19와 TypeScript, Webpack 5를 기반으로 구성된 프론트엔드 개�
   - `@babel/preset-env` - 최신 JavaScript 문법 변환
   - `@babel/preset-react` - JSX 변환 (automatic runtime)
   - `@babel/preset-typescript` - TypeScript 변환
-- **ts-loader** - TypeScript 로더
 
 ### Development Tools
 - **Webpack Dev Server** 5.2.2 - 개발 서버 (HMR 지원)
@@ -43,7 +42,6 @@ React 19와 TypeScript, Webpack 5를 기반으로 구성된 프론트엔드 개�
 - **html-webpack-plugin** - HTML 파일 자동 생성
 
 ## 주요 기능
-
 - **React 19** 최신 버전 지원
 - **TypeScript** 엄격 모드 설정
 - **Hot Module Replacement (HMR)** 지원
@@ -54,7 +52,7 @@ React 19와 TypeScript, Webpack 5를 기반으로 구성된 프론트엔드 개�
 - **History API Fallback** SPA 라우팅 지원
 - **자동 브라우저 열기** 개발 서버 실행 시
 
-## 📁 프로젝트 구조
+## 프로젝트 구조
 
 ```
 study/
@@ -84,17 +82,12 @@ study/
 
 ## 사전 요구사항
 
-- **Node.js** 16.x 이상
+- **Node.js** 22.x 이상 권장
 - **npm** 7.x 이상 (또는 yarn, pnpm)
 
 ## 설치 방법
 
-1. 저장소 클론 또는 프로젝트 디렉토리로 이동
-```bash
-cd study
-```
-
-2. 의존성 패키지 설치
+1. 의존성 패키지 설치
 ```bash
 npm install
 ```
@@ -130,6 +123,7 @@ npm run build
 
 ## 빌드 및 배포
 
+
 ### 프로덕션 빌드
 
 ```bash
@@ -145,7 +139,7 @@ npm run build
 
 `dist/` 디렉토리의 내용을 정적 호스팅 서비스(AWS S3, Netlify, Vercel 등)에 업로드하면 됩니다.
 
-## ⚙️ 주요 설정 파일
+## 주요 설정 파일
 
 ### Webpack 설정 (`webpack.config.js`)
 
@@ -213,7 +207,7 @@ npm run build
 - **커스텀 훅**: `src/hooks/`
 - **유틸리티**: `src/utils/`
 
-## 🔧 문제 해결
+## 문제 해결
 
 ### Web Vitals
 
